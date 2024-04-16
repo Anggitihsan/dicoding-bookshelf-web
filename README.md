@@ -4,7 +4,7 @@
 
 Bookshelf App adalah aplikasi web sederhana yang memungkinkan pengguna untuk mengelola daftar buku yang mereka baca. Pengguna dapat menambahkan buku baru ke dalam daftar, menandai buku sebagai selesai dibaca, menghapus buku, dan mencari buku berdasarkan judul.
 
-Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
+Data buku pada aplikasi web ini akan disimpan pada local storage. Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
 ```
 {
   id: number,
@@ -47,3 +47,7 @@ Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
 - HTML
 - CSS
 - JavaScript
+
+## Demo
+Hope you enjoy it!  
+[https://dicoding-bookshelf-web.vercel.app/](https://dicoding-bookshelf-web.vercel.app/)
