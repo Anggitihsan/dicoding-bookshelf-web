@@ -4,6 +4,18 @@
 
 Bookshelf App adalah aplikasi web sederhana yang memungkinkan pengguna untuk mengelola daftar buku yang mereka baca. Pengguna dapat menambahkan buku baru ke dalam daftar, menandai buku sebagai selesai dibaca, menghapus buku, dan mencari buku berdasarkan judul.
 
+Data buku yang disimpan merupakan objek JavaScript dengan struktur berikut:
+```
+{
+  id: number,
+  title: string,
+  author: string,
+  year: number,
+  isComplete: boolean,
+  lastPage: number,
+}
+```
+
 ## Fitur
 
 - **Menambahkan buku baru:**
